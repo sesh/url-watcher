@@ -25,3 +25,4 @@ jobs:
         run: python3 url_watcher.py
         env:
           DELTA_CRYPTOGRAPHY: ${{ secrets.DELTA_CRYPTOGRAPHY }}
+          DELTA_PBR: ${{ secrets.DELTA_PBR }}
