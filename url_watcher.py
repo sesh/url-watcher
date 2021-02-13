@@ -74,7 +74,8 @@ def request(url, params={}, json=None, data=None, headers={}, method='GET', veri
 
 
 URLS = [
-    ('https://raw.githubusercontent.com/pyca/cryptography/master/CHANGELOG.rst', 'DELTA_CRYPTOGRAPHY')
+    ('https://raw.githubusercontent.com/pyca/cryptography/master/CHANGELOG.rst', 'DELTA_CRYPTOGRAPHY'),
+    ('https://puffingbillyrunningfestival.com.au', 'DELTA_PBR')
 ]
 
 import os
