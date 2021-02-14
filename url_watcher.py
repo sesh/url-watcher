@@ -84,7 +84,7 @@ from hashlib import sha256
 if __name__ == "__main__":
     for url, delta_var in URLS:
         response = request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:82.0) Gecko/20100101 Firefox/82.0"})
-        hash = sha256(response.content).hexdigest()
+        hash = sha256(response.content[:2500]).hexdigest()
 
         delta_url = os.environ.get(delta_var)
         if delta_url:
