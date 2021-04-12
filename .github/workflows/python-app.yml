@@ -26,3 +26,4 @@ jobs:
         env:
           DELTA_CRYPTOGRAPHY: ${{ secrets.DELTA_CRYPTOGRAPHY }}
           DELTA_PBR: ${{ secrets.DELTA_PBR }}
+          DELTA_BLUEY: ${{ secrets.DELTA_BLUEY }}
