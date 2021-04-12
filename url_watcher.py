@@ -75,7 +75,8 @@ def request(url, params={}, json=None, data=None, headers={}, method='GET', veri
 
 URLS = [
     ('https://raw.githubusercontent.com/pyca/cryptography/master/CHANGELOG.rst', 'DELTA_CRYPTOGRAPHY'),
-    ('https://puffingbillyrunningfestival.com.au', 'DELTA_PBR')
+    ('https://puffingbillyrunningfestival.com.au', 'DELTA_PBR'),
+    ('https://alburyentertainmentcentre.com.au/whatson/blueys-big-play', 'DELTA_BLUEY')
 ]
 
 import os
