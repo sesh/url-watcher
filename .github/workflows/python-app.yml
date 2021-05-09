@@ -4,8 +4,8 @@ name: Run the url_watcher script
 
 # Controls when the action will run.
 on:
-  schedule:
-    - cron: 0 * * * *
+  #schedule:
+  #  - cron: 0 * * * *
 
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
